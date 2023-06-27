@@ -1,20 +1,35 @@
-ul {
+.nomdepage {
+    width: 375px;
+    height: 440px;
+
+}
+
+.modeemploi {
+    width: 375px;
+    height: 440px;
+    top: 400px;
+}
+
+
+
+ul li ol {
+
     display: flex;
-    text-decoration: none;
+    list-style: none;
 }
 
 a {
     display: flex;
     text-decoration: none;
     color: black;
-} 
+}
 
 h3 {
 
     text-decoration: none;
     color: black;
 }
-p {
-    text-decoration: none
 
+p {
+    list-style: none;
 }
