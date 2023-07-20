@@ -1,21 +1,38 @@
-ul ol {
-  display: flex;
+ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 a {
-  display: flex;
   text-decoration: none;
   color: #000;
 }
 
-h3 {
-  text-decoration: none;
-  color: #000;
+form {
+  padding: 20px;
+  background-color: #eaeaea;
 }
 
-p {
-  list-style: none;
+footer {
+  padding: 20px;
+  background-color: #353535;
+}
+footer * {
+  color: #fff;
+}
+footer h3 {
+  font-family: Shrikhand, cursive;
 }
 
 .nom-de-page {
@@ -24,8 +41,6 @@ p {
 }
 
 .mode-emploi {
-  width: 375px;
-  height: 440px;
   top: 400px;
 }
 

@@ -1,19 +1,38 @@
-ul ol {
-  display: flex;
+ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto; 
+  object-fit: contain;
 }
 
 a {
-  display: flex;
   text-decoration: none;
   color: $black;
 }
 
-h3 {
-  text-decoration: none;
-  color: $black;
+form {
+  padding: 20px;
+  background-color: $silver;
 }
 
-p {
-  list-style: none;
+footer {
+  padding: 20px;
+  background-color: $grey;
+
+  & * {
+    color: $white;
+  }
+
+  & h3 {
+    font-family: $cursive;
+  }
 }
