@@ -1,3 +1,17 @@
+h1 {
+  font-family: Shrikhand, cursive;
+  size: 30px;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+}
+
+h3 {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  line-height: 1.5;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -15,24 +29,55 @@ img {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   color: #000;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
 form {
   padding: 20px;
   background-color: #eaeaea;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+form label {
+  font-family: Roboto, sans-serif;
+  margin-bottom: 5px;
+  padding: 10px 0px;
+  font-size: 14px;
+}
+form label input {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #353535;
+  margin-bottom: 10px;
+}
+form label input::placeholder {
+  color: #353535;
 }
 
 footer {
-  padding: 20px;
+  margin: 0px;
+  padding: 22px 25px;
+  border: 0px;
   background-color: #353535;
 }
 footer * {
   color: #fff;
 }
-footer h3 {
+footer h4 {
   font-family: Shrikhand, cursive;
+  size: 18px;
+  margin: 0px 0px 10px 0px;
 }
 
 .nom-de-page {
@@ -42,6 +87,10 @@ footer h3 {
 
 .mode-emploi {
   top: 400px;
+}
+
+.fa-solid {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
